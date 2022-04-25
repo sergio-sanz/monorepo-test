@@ -1,7 +1,6 @@
 {
-  "name": "docs",
+  "name": "@sergio-sanz/docs",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev --port 3001",
     "build": "next build",
@@ -12,13 +11,13 @@
     "next": "12.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "ui": "*"
+    "@sergio-sanz/ui": "*"
   },
   "devDependencies": {
-    "config": "*",
+    "@sergio-sanz/config": "*",
     "eslint": "7.32.0",
     "next-transpile-modules": "9.0.0",
-    "tsconfig": "*",
+    "@sergio-sanz/tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "17.0.37",
     "typescript": "^4.5.3"
